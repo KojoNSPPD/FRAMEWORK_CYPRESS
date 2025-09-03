@@ -1,0 +1,23 @@
+{
+  "name": "framework_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/KojoNSPPD/FRAMEWORK_CYPRESS#readme",
+  "bugs": {
+    "url": "https://github.com/KojoNSPPD/FRAMEWORK_CYPRESS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KojoNSPPD/FRAMEWORK_CYPRESS.git"
+  },
+  "license": "ISC",
+  "author": "Kojo Ankra",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "cypress": "^15.1.0"
+  }
+}
