@@ -30,7 +30,7 @@ jobs:
         run: npx marge cypress/reports/${{ matrix.browsers}}/merged-reports.json --reportDir cypress/reports/${{ matrix.browsers}} -f "${{ matrix.browsers}}-mochawesome-report.html" 
 
       - name: Upload Mochawesome Reports
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
             name: Cypress HTML Report ${{ matrix.browsers}}
             path: cypress/reports/${{ matrix.browsers}}
