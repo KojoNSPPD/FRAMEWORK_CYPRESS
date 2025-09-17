@@ -11,4 +11,12 @@ module.exports = defineConfig({
   env: {
     Url: "https://naveenautomationlabs.com/opencart/index.php?route=account/register",
   },
+
+  reporter: 'mochawesome',
+  reporterOptions: {
+    reportDir: 'cypress/reports',
+    overwrite: false,
+    html: false,
+    json: true
+  },
 });
